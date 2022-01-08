@@ -24,7 +24,7 @@ public class Program {
 
     private static int indexOfRotatedArray(int[] numbers, int start, int end, int num) {
         if (start > end) {
-            return -1;
+            return -1; //array안에서 숫자를 찾지 못했단 의미
         }
 
         int mid = (start + end) / 2;
